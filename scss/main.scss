@@ -7,17 +7,17 @@
 
 // variales
 
-@import './variables/colores';
+ @import './variables/colores';
 
 // importaciones
 
 @import './header-footer/footer';
 @import './header-footer/header';
 @import './secciones/index';
-@import './secciones/mapa';
+@import './secciones/comoLlegar';
 @import './secciones/nosotros';
 @import './secciones/servicios';
 @import './utilidades/fuente';
 @import './secciones/formulario';
 @import './utilidades/efectos';
-@import './secciones/mixin';
+@import './secciones/maps';

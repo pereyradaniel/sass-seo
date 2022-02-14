@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+// variales
+
+@import './variables/colores';
+
+// importaciones
+
+@import './header-footer/footer';
+@import './header-footer/header';
+@import './secciones/index';
+@import './secciones/mapa';
+@import './secciones/nosotros';
+@import './secciones/servicios';
+@import './utilidades/fuente';
+@import './secciones/formulario';
+@import './utilidades/efectos';
+@import './secciones/mixin';

@@ -1,0 +1,31 @@
+.formulario {
+  margin-top:80px;
+  padding: 0 20px 20px 20px;
+  form {
+    background-image: linear-gradient(
+        rgba(11, 47, 71, 0.877),
+        rgba(0, 0, 0, 0.863)
+      ),
+      url(../img/fullsize/bg-formulario.jpg);
+    background-size: cover;
+
+    h3 {
+      color: $claros;
+    }
+    label {
+      color: $claros;
+    }
+    .btn-light {
+      background-color: $oscuro;
+      color: $claros;
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .formulario {
+    margin-top: 80px;
+    padding: 0 20px 20px 20px;
+  }
+}

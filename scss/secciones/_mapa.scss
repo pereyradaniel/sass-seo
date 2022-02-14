@@ -1,0 +1,21 @@
+.mapa {
+  margin-top:80px;
+  padding: 0 20px 0 20px;
+  .mapaContacto {
+    background-image: linear-gradient(
+        rgba(20, 112, 173, 0.877),
+        rgba(0, 0, 0, 0.863)
+      ),
+      url(../img/fullsize/footer-links.jpg);
+  
+    text-align: left;
+  }
+  ul {
+    list-style: none;
+    color: $claros;
+
+    a {
+      color: $card-5;
+    }
+  }
+}
